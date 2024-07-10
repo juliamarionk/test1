@@ -1,0 +1,9 @@
+document.getElementById("submit").onclick = function() {
+  var answer = document.getElementById("answer").value;
+  if (parseInt(answer) === 369) { // Prüft, ob die eingegebene Antwort korrekt ist
+    alert("Richtig! Der nächste Hinweis ist: Gehe zur virtuellen Bücherecke.");
+    // Hier könnten weitere Logiken folgen, um zum nächsten Rätsel zu navigieren
+  } else {
+    alert("Leider falsch, versuche es noch einmal!");
+  }
+};
